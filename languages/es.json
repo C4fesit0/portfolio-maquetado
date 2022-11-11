@@ -1,0 +1,11 @@
+{
+    "profile": {
+        "rol": "Desarrollador FullStak",
+        "description": "Soy Tecnico en Computacion. Cuento con experiencia como desarrollador usando tecnologias como Java y .Net. Actualmente estoy estudiando la carrera de Ingenieria en Sistemas de Informacion en la UTN. Considero que soy una persona amigable y responsable a la que le gusta trabajar en equipo. Sigo en constante aprendizaje dentro de este mundo tan amplio del desarrollo."
+    },
+    "experience": {
+        "first-job-title": "Desarrollador Back-End PHP",
+        "first-job-dates":"Enero 2022 - Junio 2022",
+        "first-job-description": "Desarrollo de funciones para la pagina web y mantenimiento del sistemas de ventas. Modelado y manjeo de base de datos. Relevamientos y analisis de requerimientos. Tecnologias: HTML, CSS, JavaScript, PHP, MySQL, postreSQL."
+    }
+}

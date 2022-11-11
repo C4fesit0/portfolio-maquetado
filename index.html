@@ -17,6 +17,14 @@
             <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
           </div>
         </div>
+        <div id="flags" class="flags">
+          <div class="flags__item" data-language="es">
+            <img src="assets/icons/ar.svg" alt="" class="">
+          </div>
+          <div class="flags__item" data-language="en">
+            <img src="assets/icons/gb.svg" alt="" class="">
+          </div>
+        </div>
         <div id="toggle-colors" class="colors">
           <div data-color="hsl(214,84%,56%)" class="colors__item colors__item--blue"></div>
           <div data-color="hsl(150,84%,56%)" class="colors__item colors__item--green"></div>
@@ -30,13 +38,13 @@
         <!-- Profile Card -->
         <article class="card card--profile">
           <div class="card__image-container">
-            <img src="./assets/images/profile.jpg" alt=""/>
+            <img src="./assets/images/ichigo-perfil.jpg" alt=""/>
           </div>
           <div class="card__header">
             <h2 class="card__title no-margin">
               Alan Lazo
             </h2>
-            <p class="card__subtitle no-margin">FullStack Developer</p>
+            <p data-section="profile" data-value="rol" class="card__subtitle no-margin">FullStack Developer</p>
           </div>
           <div class="card__body">
             <div class="card__link">
@@ -47,48 +55,22 @@
               <i class="fas fa-phone-alt icon"></i>
               <a href="tel:1123951092">+054 11-2395-1092</a>
             </div>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque 
-              aliquam, pariatur, iste culpa blanditiis beatae porro, velit error
-              ipsa odio totam vel libero ad quis! Doloribus aut iste tempora placeat!
-              <br/>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat
-              voluptate mollitia tempora ipsam autem non inventore totam eveniet.
-              Autem nemo suscipit voluptatum omnis deserunt aspernatur magnam, 
-              explicabo facere dolor!
+            <p data-section="profile" data-value="description" class="card__text">
+              Soy Tecnico en Computacion. Cuento con experiencia como desarrollador usando tecnologias como Java y .Net. 
+              Actualmente estoy estudiando la carrera de Ingenieria en Sistemas de Informacion en la UTN. 
+              Considero que soy una persona amigable y responsable a la que le gusta trabajar en equipo. 
+              Sigo en constante aprendizaje dentro de este mundo tan amplio del desarrollo.
             </p>
           </div>
         </article>
         <article class="card card--experience">
           <h2 class="card__title">Experiencia</h2>
           <div class="experience">
-            <img src="assets/images/logo.png" alt="" class="experience__image">
+            <img src="assets/images/necxusLogo.png" alt="" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">Feb 2022 - Jul 2022</p>
-              <h3 class="experience__job">FullStack Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Excepturi enim eligendi est. Quia dolorum dolores quaerat quisquam perspiciatis quas sit? 
-                Perferendis quae error debitis? Temporibus modi pariatur ad ex velit.</p>
-            </div>
-          </div>
-          <div class="experience">
-            <img src="assets/images/logo.png" alt="" class="experience__image">
-            <div class="experience__info">
-              <p class="experience__time">Feb 2022 - Jul 2022</p>
-              <h3 class="experience__job">FullStack Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Excepturi enim eligendi est. Quia dolorum dolores quaerat quisquam perspiciatis quas sit? 
-                Perferendis quae error debitis? Temporibus modi pariatur ad ex velit.</p>
-            </div>
-          </div>
-          <div class="experience">
-            <img src="assets/images/logo.png" alt="" class="experience__image">
-            <div class="experience__info">
-              <p class="experience__time">Feb 2022 - Jul 2022</p>
-              <h3 class="experience__job">FullStack Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Excepturi enim eligendi est. Quia dolorum dolores quaerat quisquam perspiciatis quas sit? 
-                Perferendis quae error debitis? Temporibus modi pariatur ad ex velit.</p>
+              <p data-section="experience" data-value="first-job-dates" class="experience__time">Enero 2022 - Junio 2022</p>
+              <h3 data-section="experience" data-value="first-job-title" class="experience__job">Desarrollador Back-End PHP</h3>
+              <p data-section="experience" data-value="first-job-description" class="experience__description">Desarrollo de funciones para la pagina web y mantenimiento del sistemas de ventas. Modelado y manjeo de base de datos. Relevamientos y analisis de requerimientos. Tecnologias: HTML, CSS, JavaScript, PHP, MySQL, postreSQL.</p>
             </div>
           </div>
         </article>
@@ -158,7 +140,26 @@
         </article>
         <article class="card card--project">
           <div class="card__image-container">
-            <img src="assets/images/project.jpg" alt="Langing page" class="card__image"> 
+            <img src="assets/images/project.jpg" alt="Langing page" class="card__image"/> 
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Omnis esse odit ipsa sapiente nam laborum consectetur. Eligendi ex nesciunt alias non.
+            Dolorem, quasi. Amet rem ipsam dolor officiis, </p>
+            <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
+              quasi non distinctio, consequatur veniam harum nobis optio illum cupiditate esse, neque
+              eligendi totam doloremque reprehenderit laborum accusamus, labore porro facere Lore</p>
+              <div class="buttons">
+                <a href="#" class="button button--primary">Demo</a>
+                <a href="#" class="button button--ghost">Code</a>
+              </div>
           </div>
           
         </article>
